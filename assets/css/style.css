@@ -626,3 +626,63 @@
   color: white;
   text-shadow: 1px 15px 15px gray;
 }
+
+.footer {
+  padding: 20px 10px 10px;
+  background-color: #ededed;
+}
+.footer__fist {
+  display: flex;
+}
+.footer__logo {
+  width: 10%;
+}
+.footer__link {
+  width: 40%;
+  padding: 10px 15px;
+}
+.footer__link > ul {
+  display: flex;
+}
+.footer__op {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer__from {
+  width: 30%;
+  padding: 10px 15px;
+}
+.from__heading {
+  font-size: 14px;
+  font-weight: 700;
+}
+.from__op,
+.footer__email > p {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
+.footer__email {
+  width: 30%;
+  padding: 10px 15px;
+}
+.email__heading {
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer__search > button {
+  padding: 3px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.footer__secon {
+  padding: 10px 20px;
+}
+.footer__secon > p {
+  font-size: 10px;
+  color: gray;
+  margin: 0;
+}
